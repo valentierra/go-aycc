@@ -1,0 +1,15 @@
+routes:
+
+collections:
+  /:
+    permalink: /{slug}/
+    template:
+      # - godo-home-blog
+      # - godo-home-travel
+      # - godo-home-travel-featured
+      - godo-home-fashion-concept
+      # - index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

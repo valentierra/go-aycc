@@ -1,4 +1,22 @@
 routes:
+  /signup/: members/signup
+  /signin/: members/signin
+  /account/: members/account
+  /membership/: members/membership
+  /podcast/:
+    controller: channel
+    filter: tag:[hash-podcast]
+    data:
+      post: page.podcast
+    limit: 10
+    template: godo-podcast
+  /English_Posts/:
+    controller: channel
+    order: published_at desc
+    filter: tag:[en]
+    data:
+      post: page.en
+    template: godo-template-category-header
 
 collections:
   /:
