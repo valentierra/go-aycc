@@ -9,8 +9,7 @@ themes=(
     pico
     lyra
 	liebling
-	mapache-godofredoninja
-	mapache-wo-home
+	mapache-aycc
 	simply
 	paway
 )
