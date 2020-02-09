@@ -10,6 +10,7 @@ themes=(
     lyra
 	liebling
 	mapache-godofredoninja
+	mapache-wo-home
 	simply
 	paway
 )

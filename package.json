@@ -26,6 +26,7 @@
     "vapor": "github:sethlilly/Vapor#v1.6.0",
     "liebling": "github:eddiesigner/liebling",
     "mapache-godofredoninja": "github:godofredoninja/Mapache",
+    "mapache-wo-home": "github:valentierra/Mapache-wo-home",
     "simply": "github:godofredoninja/simply#0.2.7",
     "paway": "github:godofredoninja/paway"
   },
